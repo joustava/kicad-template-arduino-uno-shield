@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "Arduino Uno Pinout"
+Date "2021-02-04"
+Rev "1"
+Comp ""
+Comment1 "Author: Joost Oostdijk"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 601C5E74
+P 6450 3575
+F 0 "J2" V 6550 3125 50  0000 L CNN
+F 1 "Digital" V 6550 3700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6450 3575 50  0001 C CNN
+F 3 "~" H 6450 3575 50  0001 C CNN
+	1    6450 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 601C7D12
+P 5500 3575
+F 0 "J1" V 5600 3050 50  0000 C CNN
+F 1 "Digital" V 5600 3900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 5500 3575 50  0001 C CNN
+F 3 "~" H 5500 3575 50  0001 C CNN
+	1    5500 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 601C8DF1
+P 6450 4275
+F 0 "J4" V 6550 4525 50  0000 R CNN
+F 1 "Analog IN" V 6550 4300 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6450 4275 50  0001 C CNN
+F 3 "~" H 6450 4275 50  0001 C CNN
+	1    6450 4275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 601CA000
+P 5325 4275
+F 0 "J3" V 5425 4625 50  0000 R CNN
+F 1 "POWER" V 5425 4075 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5325 4275 50  0001 C CNN
+F 3 "~" H 5325 4275 50  0001 C CNN
+	1    5325 4275
+	0    -1   -1   0   
+$EndComp
+Text HLabel 6250 4475 3    50   Input ~ 0
+A0
+Text HLabel 6350 4475 3    50   Input ~ 0
+A1
+Text HLabel 6450 4475 3    50   Input ~ 0
+A2
+Text HLabel 6550 4475 3    50   Input ~ 0
+A3
+Text HLabel 6650 4475 3    50   Input ~ 0
+A4
+Text HLabel 6750 4475 3    50   Input ~ 0
+A5
+Text HLabel 5725 4475 3    50   Input ~ 0
+Vin
+Text HLabel 5625 4475 3    50   Output ~ 0
+GND
+Text HLabel 5525 4475 3    50   Output ~ 0
+GND
+Text HLabel 5425 4475 3    50   Output ~ 0
+5V
+Text HLabel 5325 4475 3    50   Output ~ 0
+3.3V
+Text HLabel 5225 4475 3    50   Input ~ 0
+RESET
+Text HLabel 5125 4475 3    50   Input ~ 0
+IOREF
+NoConn ~ 5025 4475
+Text HLabel 6750 3375 1    50   Input ~ 0
+Rx
+Text HLabel 6650 3375 1    50   Output ~ 0
+Tx
+Text HLabel 6550 3375 1    50   BiDi ~ 0
+2
+Text HLabel 6450 3375 1    50   BiDi ~ 0
+3(PWM)
+Text HLabel 6350 3375 1    50   BiDi ~ 0
+4
+Text HLabel 6250 3375 1    50   BiDi ~ 0
+5(PWM)
+Text HLabel 6150 3375 1    50   BiDi ~ 0
+6(PWM)
+Text HLabel 6050 3375 1    50   BiDi ~ 0
+7
+Text HLabel 5900 3375 1    50   BiDi ~ 0
+8
+Text HLabel 5800 3375 1    50   BiDi ~ 0
+9(PWM)
+Text HLabel 5700 3375 1    50   BiDi ~ 0
+10(PWM)
+Text HLabel 5600 3375 1    50   BiDi ~ 0
+11(PWM)
+Text HLabel 5500 3375 1    50   BiDi ~ 0
+12
+Text HLabel 5400 3375 1    50   BiDi ~ 0
+13
+Text HLabel 5300 3375 1    50   Input ~ 0
+GND
+Text HLabel 5200 3375 1    50   Input ~ 0
+AREF
+Text HLabel 5100 3375 1    50   BiDi ~ 0
+SDA
+Text HLabel 5000 3375 1    50   Output ~ 0
+SDL
+Wire Notes Line
+	4400 2750 4400 5025
+Wire Notes Line
+	4400 5025 7400 5025
+Wire Notes Line
+	7400 5025 7400 2750
+Wire Notes Line
+	7400 2750 4400 2750
+Text Notes 5075 2725 2    50   ~ 0
+Arduino Uno Pins
+Text Notes 7450 2900 0    50   ~ 0
+These hierarchical pins can be imported\nin your sheet when needed.
+$EndSCHEMATC
