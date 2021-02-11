@@ -15,8 +15,8 @@ Download or clone this GitHub repository to your [KiCad user templates directory
 5. Select the template and go design!
 
 | Project Template Selector |
-|===========================|
-| ![Screenshot](./meta/project-template-selector-screenshot.png)
+|---------------------------|
+| ![Screenshot](./meta/project-template-selector-screenshot.png) |
 
 
 *Note*
