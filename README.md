@@ -14,6 +14,11 @@ Download or clone this GitHub repository to your [KiCad user templates directory
 4. Browse to the directory where your user templates are
 5. Select the template and go design!
 
+| Project Template Selector |
+|===========================|
+| ![Screenshot](./meta/project-template-selector-screenshot.png)
+
+
 *Note*
 This GitHub project itself can also be used as a template to create new GitHub repositories, see [creating-a-repository-from-a-template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) for details.
 
