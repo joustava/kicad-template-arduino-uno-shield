@@ -18,6 +18,10 @@ Download or clone this GitHub repository to your [KiCad user templates directory
 |---------------------------|
 | ![Screenshot](./meta/project-template-selector-screenshot.png) |
 
+| Template in 3D Viewer |
+|---------------------------|
+| ![Screenshot](./meta/pcb-3d.png) |
+
 
 *Note*
 This GitHub project itself can also be used as a template to create new GitHub repositories, see [creating-a-repository-from-a-template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) for details.
@@ -26,7 +30,7 @@ This GitHub project itself can also be used as a template to create new GitHub r
 
 - [KiCad](https://kicad.org/)
 - [Arduino](https://www.arduino.cc/)
-
+- [Arduino Uno](https://store.arduino.cc/arduino-uno-rev3)
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
